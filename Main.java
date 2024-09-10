@@ -4,7 +4,6 @@ import Strategies.WinningStrategies.ColWinningStrategy;
 import Strategies.WinningStrategies.DiagonalWinningStrategy;
 import Strategies.WinningStrategies.RowWinningStrategy;
 import Strategies.WinningStrategies.WinningStrategy;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -51,9 +50,9 @@ public class Main {
             }else{
                 System.out.println("Game is a draw");
             }
+            scn.close();
         } catch (Exception ex) {
             System.out.println("Game did not work");
         }
-
     }
 }
