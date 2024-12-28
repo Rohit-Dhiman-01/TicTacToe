@@ -25,9 +25,6 @@ public class Main {
             Game game = gameController.startGame(dimensionOfGame, playerList, winningStrategyList);
 
             while(gameController.checkState(game).equals(GameState.IN_PROGRESS)){
-                // print board
-                // x's turn
-                // ask to make move
                 gameController.printBoard(game);
 
                 System.out.println("Does anyone want to undo? (y/n)");
